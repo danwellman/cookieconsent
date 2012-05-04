@@ -7,7 +7,7 @@ Adds a container, a message, opt-in/opt-out links and a link to a read more/priv
 
 This plugin is dependant on jQuery and the jquery.cookie.js plugin.
 
-For a demo of how the plugin looks and feels please visit [www.dhaus.com](http://www.dhaus.com). Hooks for styling are provided and you are encourged to decorate it using CSS.
+Hooks for styling are provided and you are encourged to decorate it using CSS.
 
 Usage
 -------------
@@ -27,7 +27,7 @@ Configurable options:
 		<td>message</td><td>"This site wishes to use cookies in order to provide a better experience."</td><td>The message displayed in the widget</td>
 	</tr>
 	<tr>
-		<td>addReadMoreLink<td><td>false</td><td>Adds a link to a read more page to the widget</td>
+		<td>addReadMoreLink</td><td>false</td><td>Adds a link to a read more page to the widget</td>
 	</tr>
 	<tr>
 		<td>readMoreHref</td><td>""</td><td>Sets the href of the read more link. This option must be configured if a read more link is added</td>
