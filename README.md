@@ -82,7 +82,7 @@ Configurable options:
 Analytics
 -------------
 
-By default this plugin injects the standard async Google Analytics tracking code into the head of the page, e.g:
+By default this plugin injects the standard async Google Analytics tracking code into the head of the page once consent to set cookies has been provided, e.g:
 
 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
