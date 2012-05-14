@@ -7,7 +7,9 @@ Adds a container, a message, opt-in/opt-out links and a link to a read more/priv
 
 This plugin is dependant on jQuery and the jquery.cookie.js plugin.
 
-Hooks for styling are provided and you are encourged to decorate it using CSS.
+Hooks for styling are provided and you are encourged to decorate it using CSS. 
+
+
 
 Usage
 -------------
@@ -88,7 +90,7 @@ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 
-The widget **does not** set the UA account numberp; this, along with other GA requirements such as *trackPageview*, should be set in the normal way.
+The widget **does not** set the UA account number; this, along with other GA requirements such as *trackPageview*, should be set in the normal way.
 
 Other analytic scripts may be used by overriding the analyticsInject option, for example, to use Get Clicky, you could use this:
 
