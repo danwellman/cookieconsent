@@ -5,11 +5,9 @@ Basic plugin to easily add an opt-in for EU cookie compliance
 
 Adds a container, a message, opt-in/opt-out links and a link to a read more/privacy page. The message will be displayed on the page it is installed on every time the page is loaded until the visitor opts-in. If/when the visitor opts-in, the message will be removed and a cookie will be set to stop the message being displayed on subsequent visits. By default, the Google Analytics async script will be inserted once the visitor opts-in and on subsequent visits.
 
-This plugin is dependant on jQuery and the jquery.cookie.js plugin.
+This plugin is dependant on [jQuery](http://jquery.com/) and the [jquery.cookie.js](https://github.com/carhartl/jquery-cookie) plugin.
 
 Hooks for styling are provided and you are encourged to decorate it using CSS. 
-
-
 
 Usage
 -------------
