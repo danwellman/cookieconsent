@@ -1,0 +1,11 @@
+********* Cookie Consent Plugin Change Log *********
+
+version 0.0.2
+
+Added events:
+
+	displayed		~ fired when the consent bar is displayed
+	consented		~ fired when the consent link is clicked
+	denied			~ fired when the deny link is clicked
+	cookieSet		~ fired when the cookie is set
+	analyticsInjected	~ fired when analytics script is injected
