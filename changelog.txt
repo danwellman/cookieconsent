@@ -1,5 +1,18 @@
 ********* Cookie Consent Plugin Change Log *********
 
+version 0.0.3
+
+Wrapped message in a span for easier styling. Added container for question and consent/deny links
+
+Added config options:
+
+	messageContainer	~ default: "span"
+	messageClass		~ default: "message"
+	uiContainer		~ default: "fieldset"
+	uiClass			~ default: ""
+
+----------------------------------------------------
+
 version 0.0.2
 
 Added events:

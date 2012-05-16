@@ -27,6 +27,12 @@ Configurable options:
 		<td>message</td><td>"This site wishes to use cookies in order to provide a better experience."</td><td>The message displayed in the widget</td>
 	</tr>
 	<tr>
+		<td>messageContainer</td><td>"span"</td><td>The container element for the message</td>
+	</tr>
+	<tr>
+		<td>messageClass</td><td>"message"</td><td>The class name added to the message container</td>
+	</tr>
+	<tr>
 		<td>addReadMoreLink</td><td>false</td><td>Adds a link to a read more page to the widget</td>
 	</tr>
 	<tr>
@@ -40,6 +46,12 @@ Configurable options:
 	</tr>
 	<tr>
 		<td>readMoreRel</td><td>""</td><td>Sets a rel attribute to the read more link</td>
+	</tr>
+	<tr>
+		<td>uiContainer</td><td>"fieldset"</td><td>A wrapping element for the question and yes/no links</td>
+	</tr>
+	<tr>
+		<td>uiClass</td><td>""</td><td>A class name for the UI container</td>
 	</tr>
 	<tr>
 		<td>questionText</td><td>"Do you consent?"</td><td>The text of the consent question</td>
