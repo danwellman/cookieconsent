@@ -79,6 +79,29 @@ Configurable options:
 	</tr>
 </table>
 
+Events:
+
+<table>
+	<tr>
+		<th>Event</th><th>Fired when...</th><th>Lifecycle</th>
+	</tr>
+	<tr>
+		<td>displayed</td><td>The consent bar is displayed</td><td>Fired once, only if cookie not already set</td>
+	</tr>
+	<tr>
+		<td>consented</td><td>The consent link is clicked</td><td>Fired once, only if cookie not already set</td>
+	</tr>
+	<tr>
+		<td>denied</td><td>The deny link is clicked</td><td>Fired once per session, only if cookie not already set</td>
+	</tr>
+	<tr>
+		<td>cookieset</td><td>The consent cookie is saved</td><td>Fired once, whencookie is set the first time</td>
+	</tr>
+	<tr>
+		<td>analyticsInjected</td><td>The analytics script is injected</td><td>Fired once per session when cookie is set</td>
+	</tr>
+</table>
+
 Analytics
 -------------
 
