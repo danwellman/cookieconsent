@@ -1,5 +1,16 @@
 ********* Cookie Consent Plugin Change Log *********
 
+version 0.0.4
+
+Added container element for readMore link
+
+Added config options:
+
+	readMoreContainer	~ default: ""
+	readMoreContainerClass	~ default: ""
+
+----------------------------------------------------
+
 version 0.0.3
 
 Wrapped message in a span for easier styling. Added container for question and consent/deny links

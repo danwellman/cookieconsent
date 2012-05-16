@@ -45,6 +45,12 @@ Configurable options:
 		<td>readMoreText</td><td>"Find out more"</td><td>The text for the read more link</td>
 	</tr>
 	<tr>
+		<td>readMoreContainer</td><td>""</td><td>A container for the read more link</td>
+	</tr>
+	<tr>
+		<td>readMoreContainerClass</td><td>""</td><td>Adds a class name to the read more link container</td>
+	</tr>
+	<tr>
 		<td>readMoreRel</td><td>""</td><td>Sets a rel attribute to the read more link</td>
 	</tr>
 	<tr>
