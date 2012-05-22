@@ -9,6 +9,8 @@ This plugin is dependent on [jQuery](http://jquery.com/) and the [jquery.cookie.
 
 Hooks for styling are provided and you are encourged to decorate it using CSS. 
 
+For a visual demonstration of its behaviour, with a custom skin added independantly of the plugin itself, visit [www.dhaus.com](http://www.dhaus.com)
+
 Usage
 -------------
 
@@ -93,7 +95,7 @@ Configurable options:
 		<td>cookieExpiry</td><td>3650</td><td>The number of days the cookie will live for</td>
 	</tr>
 	<tr>
-		<td>analyticsInject</td><td>[see below*]</td><td>The analytics script injected in the <head> of the page</td>
+		<td>analyticsInject</td><td>[see below*]</td><td>The analytics script injected in the &lt;head&gt; of the page</td>
 	</tr>
 </table>
 
